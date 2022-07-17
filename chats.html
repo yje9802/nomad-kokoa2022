@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<title>Chats | Kokoa Talk</title>
+	</head>
+	<body>
+		<div class="status-bar">
+			<div class="status-bar__column">
+				<span>No Service</span>
+				<i class="fas fa-wifi"></i>
+			</div>
+			<div class="status-bar__column">
+				<span>18:43</span>
+			</div>
+			<div class="status-bar__column">
+				<span>110%</span>
+				<i class="fas fa-battery-full fa-lg"></i>
+				<i class="fas fa-bolt"></i>
+			</div>
+		</div>
+
+		<header class="screen-header">
+			<h1 class="screen-header__title">Chats</h1>
+			<div class="screen-header__icons">
+				<span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+				<span><i class="far fa-comment-dots fa-lg"></i></span>
+				<span><i class="fa-solid fa-music fa-lg"></i></span>
+				<span><i class="fa-solid fa-gear fa-lg"></i></span>
+			</div>
+		</header>
+
+		<main class="main-screen chats-screen">
+			<a href="chat_jonathan.html">
+				<div class="user-component">
+					<div class="user-component__column">
+						<img
+							src="https://preview.redd.it/vrpfgr1073b91.jpg?width=640&crop=smart&auto=webp&s=a2f13af390bd00bca7faa670018959833855c999"
+							class="user-component__avatar user-component__avatar"
+						/>
+						<div class="user-component__text">
+							<h4 class="user-compoennt__title">Jonathan</h4>
+							<h6 class="user-component__subtitle">I'm here!</h6>
+						</div>
+					</div>
+					<div class="user-component__column">
+						<span class="user-component__time">21:22</span>
+					</div>
+				</div>
+			</a>
+			<a href="chat_mike.html">
+				<div class="user-component">
+					<div class="user-component__column">
+						<img
+							src="https://i.pinimg.com/736x/d1/ef/fd/d1effd1c26b9332a8fc72c006ff3b2a1.jpg"
+							class="user-component__avatar user-component__avatar"
+						/>
+						<div class="user-component__text">
+							<h4 class="user-compoennt__title">Mike</h4>
+							<h6 class="user-component__subtitle">r u ok?</h6>
+						</div>
+					</div>
+					<div class="user-component__column">
+						<span class="user-component__time">21:00</span>
+						<div class="badge">1</div>
+					</div>
+				</div>
+			</a>
+		</main>
+
+		<div id="no-mobile">Your Screen is too big!</div>
+
+		<nav class="nav">
+			<ul class="nav__list">
+				<li class="nav__btn">
+					<a href="friends.html" class="nav__link"
+						><i class="far fa-user fa-2x"></i
+					></a>
+				</li>
+				<li class="nav__btn">
+					<a href="chats.html" class="nav__link">
+						<span class="nav__notification badge">1</span>
+						<i class="fas fa-comment fa-2x"></i
+					></a>
+				</li>
+				<li class="nav__btn">
+					<a href="find.html" class="nav__link"
+						><i class="fa-solid fa-magnifying-glass fa-2x"></i
+					></a>
+				</li>
+				<li class="nav__btn">
+					<a href="more.html" class="nav__link">
+						<span class="nav__notification2"></span>
+						<i class="fa-solid fa-ellipsis fa-2x"></i>
+					</a>
+				</li>
+			</ul>
+		</nav>
+
+		<script
+			src="https://kit.fontawesome.com/a41ebeca25.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
